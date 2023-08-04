@@ -1,0 +1,13 @@
+/* BlockChainVisualizer.css */
+.blockchain-visualizer {
+    text-align: center;
+  }
+  
+  .blockchain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Styling for the Block component can be defined here */
+  
