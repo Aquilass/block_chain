@@ -590,23 +590,23 @@ const BlockChain: React.FC = () => {
 
               {/* <User key={index} address={user.address} privateKey={user.privateKey} /> */}
               <div className="form-control">
-                <label className="label">
+                <label className="label ml-4">
                   <span className="label-text">輸入匯出的數量</span>
                 </label>
-                <label className="input-group">
+                <label className="input-group mr-4 ml-4">
                   <input
                     ref={(el) => (transactionAmountRefs.current[index] = el)}
                     type="text"
                     placeholder="0.01"
-                    className="input input-bordered"
+                    className="input input-bordered w-full "
                   />
                   <span>BTC</span>
                 </label>
               </div>
-              <div className="form-control">
-                <div className="input-group">
+              <div className="form-control  m-4 ">
+                <div className="input-group ">
                   <select
-                    className="select select-bordered"
+                    className="select select-bordered "
                     ref={(el) => (transactionSendToRefs.current[index] = el)}
                   >
                     {users.map((user, index) => (
@@ -635,7 +635,10 @@ const BlockChain: React.FC = () => {
                 </div>
               </div>
 
-              <button className="btn lg" onClick={() => mine1Block(user.name)}>
+              <button
+                className="btn lg m-4"
+                onClick={() => mine1Block(user.name)}
+              >
                 當個礦工挖呀挖
               </button>
             </div>
