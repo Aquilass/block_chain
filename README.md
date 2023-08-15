@@ -2,7 +2,7 @@
 
 使用 React.js 與 Tailwind CSS 實作區塊鍊可視化，內部運行的區塊鍊有使用 crypto-js 和 jsencrypt 進行加密與解密，用以模擬區塊鍊的運作機制，是一個簡易的區塊鍊可視化網站。
 
-實際的 demo 網站請前往:  [區塊鍊視覺化]([http://oscarblog.ddnsking.com/posts/blockchain_master_ch1])(https://aquilass.github.io/block_chain/))。
+實際的 demo 網站請前往:  [區塊鍊視覺化](https://aquilass.github.io/block_chain/))。
 詳細介紹請參考 [我的部落格](http://oscarblog.ddnsking.com/posts/blockchain_master_ch1)。
 
 邏輯和程式碼參考自: 運用區塊鍊生存指南 第二版
